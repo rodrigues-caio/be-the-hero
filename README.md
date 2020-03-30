@@ -1,0 +1,2 @@
+# be-the-hero2
+Aplicação que reúne diversos casos de ajuda financeira à ONGs que buscam ajuda das pessoas para arrecadar para gastos com casos, desde cirurgia para pets à qualquer outra necessidade que possa ser facilitada com a ajuda de pessoas. Há uma sessão para cadastro, login/profile, cadastramento de casos, alteração do caso, exclusão do caso e a disponibilização do contato das ONGs na parte do front-end para usuários visualizarem. Foi desenvolvido a parte front e back-end e mobile para esta aplicação.
