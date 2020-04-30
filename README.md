@@ -1,5 +1,6 @@
 # BE THE HERO
 
+OBS: Para rodar o projeto em sua máquina, faça um clone com o git no prompt de comando, abra a pasta e rode o comando 'yarn' para instalar todas as dependências.
 
 
 ## Tecnologias utilizadas:
