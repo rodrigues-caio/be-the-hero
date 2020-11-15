@@ -16,7 +16,7 @@ A aplicação realiza o cadastramento das ONG's e permite que estas possam publi
 
 A plataforma web, é feita apenas para as ONG's, já o **app mobile** permite que usuários visualizem as publicações das ONG's, com título, descrição do caso, contato e localização.
 
-## Tecnologias utilizadas:
+## :art: Tecnologias utilizadas:
 
 **Back-end**
 
@@ -38,7 +38,7 @@ A plataforma web, é feita apenas para as ONG's, já o **app mobile** permite qu
 - [Expo](https://expo.io/)
 - [React Native](https://reactnative.dev/)
 
-## Como baixar o projeto
+## :tea: Como baixar o projeto
 
 ```bash
   # Clone a pasta do projeto
