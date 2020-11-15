@@ -18,25 +18,25 @@ A plataforma web, é feita apenas para as ONG's, já o **app mobile** permite qu
 
 ## :art: Tecnologias utilizadas:
 
-**Back-end**
+**BACK-END**
 
-- [NodeJS](https://nodejs.org/en/)
-- [Nodemon](https://nodemon.io/)
-- [Express](https://expressjs.com/)
-- [SQLite3](https://www.npmjs.com/package/sqlite3)
-- [Cors](https://www.npmjs.com/package/cors)
+> - [NodeJS](https://nodejs.org/en/)
+> - [Nodemon](https://nodemon.io/)
+> - [Express](https://expressjs.com/)
+> - [SQLite3](https://www.npmjs.com/package/sqlite3)
+> - [Cors](https://www.npmjs.com/package/cors)
 
-**web**
+**WEB**
 
-- [ReactJS](https://pt-br.reactjs.org/)
-- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Axios](https://github.com/axios/axios)
+> - [ReactJS](https://pt-br.reactjs.org/)
+> - [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+> - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+> - [Axios](https://github.com/axios/axios)
 
-**mobile**
+**MOBILE**
 
-- [Expo](https://expo.io/)
-- [React Native](https://reactnative.dev/)
+> - [Expo](https://expo.io/)
+> - [React Native](https://reactnative.dev/)
 
 ## :tea: Como baixar o projeto
 
