@@ -1,65 +1,66 @@
-# BE THE HERO
+<h1 align="center">
+  <img src="./web/src/assets/logo.svg">
+</h1>
 
-OBS: Para rodar o projeto em sua máquina, faça um clone com o git no prompt de comando, abra a pasta e rode o comando 'yarn' para instalar todas as dependências.
+<h1>
+  <img src="./web/public/aplicacao.gif" >
+</h1>
 
+## :pencil: Sobre
+
+Aplicação desenvolvida na **Semana Omnistack** para que ONG's possam ter ajuda financeira.
+
+Por exemplo, existem ONG's que cuidam de animais de rua e estes necessitam de tratamentos cirúrgicos que a própria ONG não poderá arcar. Há também ONG's que ajudam moradores em vulnerabilidade socioeconômica e dentre outras.
+
+A aplicação realiza o cadastramento das ONG's e permite que estas possam publicar o tipo de ajuda que elas estão precisando.
+
+A plataforma web, é feita apenas para as ONG's, já o **app mobile** permite que usuários visualizem as publicações das ONG's, com título, descrição do caso, contato e localização.
 
 ## Tecnologias utilizadas:
 
-* NodeJS
-* Expo
-* Express
-* Nodemon
-* Axios
-* Cors
-* ESlint
-* Jest
-* SQLite
-* ReactJS
-* React Native
+**Back-end**
 
-### Descrição da aplicação: 
+- [NodeJS](https://nodejs.org/en/)
+- [Nodemon](https://nodemon.io/)
+- [Express](https://expressjs.com/)
+- [SQLite3](https://www.npmjs.com/package/sqlite3)
+- [Cors](https://www.npmjs.com/package/cors)
 
-  Aplicação desenvolvida para ONG's que precisam de ajuda financeira, por exemplo, ONG's que cuidam de animais de rua e que estes necessitam de tratamentos cirúrgicos, ou até mesmo ONG's que ajudam moradores em vulnerabilidade socioeconômica e entre outras. 
-  
-  Siga abaixo mais detalhes da aplicação :heart_eyes:!
-  
-#### Primeira Página:
-  Nesta primeira página temos o pedido do ID de cadastro da **ONG**, lembrando que a parte de website **só terá acesso** as Organizações Não-Governamentais.
-  
-  ![](images/logon.png)
-  
-Caso a ONG não tenha cadastro ainda, clicar em **Não tenho cadastro**
+**web**
 
-#### Segunda página: 
+- [ReactJS](https://pt-br.reactjs.org/)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Axios](https://github.com/axios/axios)
 
-Nesta página, a ONG terá de preencher um formulário de acordo com o pedido de informações nele contido:
+**mobile**
 
-**OBS:** A ONG precisa a anotar seu ID de acesso que aparecerá na janela para ter acesso as funcionalidades.
+- [Expo](https://expo.io/)
+- [React Native](https://reactnative.dev/)
 
-![](images/register.png)
+## Como baixar o projeto
 
-Após anotar concluir o cadastro, o site redirecionará para a primeira página de Logon, o qual a ONG terá de preencher com o ID gerado após o seu cadastro.
+```bash
+  # Clone a pasta do projeto
 
-#### Terceira página:
+  $ git clone https://github.com/rodrigues-caio/be-the-hero.git
 
-Após a entrada, será apresentado todos os casos cadastrados da ONG, como não houve cadastros ainda, a página estará dessa forma: 
+  # Abra a pasta
 
-![](images/page_cases.png)
-  
- Ao clicar em **Cadastrar novo caso** irá ser redirecionado para a seguinte página.
- 
- #### Quarta página:
- 
- Nesta sessão, a ONG precisa preencher o formulário que vai especificar o caso a ser cadastrado na plataforma de casos.
- 
- ![](images/register_case.png)
- 
- Ao clicar em **Cadastrar** a página automaticamente vai para a sessão de casos cadastrados, que seria a terceira página novamente, mas preenchida com o caso cadastrado.
- 
- ![](images/list_case.png)
-  
-Onde a ONG terá controle dos casos cadastrados, podendo adicionar mais casos ou até mesmo excluí-los.
+  $ cd be-the-hero
 
-### O Aplicativo mobile:
-O aplicativo foi desenvolvido para as pessoas que desejam ajudar nos casos que as ONG colocam na plataforma, sendo que os casos irão aparecer no app, mostrando o nome da ONG, cidade, a descrição do caso, preço e formas de entrar em contato, especificamente o Whatsapp e Email.
+  # Abra as pastas uma em cada editor
 
+  $ cd back-end
+  $ cd web
+  $ cd mobile
+
+  # E rode o comando de sua preferência
+
+  $ yarn or npm install
+
+  # Rode a aplicação em todas as pastas
+
+  $ yarn start or npm start
+
+```
